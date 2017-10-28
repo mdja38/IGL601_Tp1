@@ -38,7 +38,7 @@ function File(title){
 	}
 
 	this.writeFile = function(bufferWrite){
-		console.log("DataString : ", bufferWrite);
+		//console.log("DataString : ", bufferWrite);
 		fs.writeFile(title, bufferWrite, (err)=>{
 			if(err)
 				throw err;
